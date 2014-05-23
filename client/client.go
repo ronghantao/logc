@@ -26,7 +26,7 @@ func (c *Client) Read(buffer []byte) bool {
 
 func (c *Client) SendEcho() error {
 	log.Println("begin send echo...")
-	conn, err := net.Dial(constant.Conf.Mode, constant.Conf.ServerHost+":"+strconv.Itoa(constant.Conf.Port))
+	conn, err := net.Dial(constant.Conf.Protocol, constant.Conf.ServerHost+":"+strconv.Itoa(constant.Conf.Port))
 	if nil != err {
 		log.Println("create connection to ", constant.Conf.ServerHost+":"+strconv.Itoa(constant.Conf.Port), " failed")
 		return err
