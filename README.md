@@ -1,2 +1,2 @@
 #LOGC
-logc is a log collector, we try to collect logs from various to our server, and give you a summary log review.
+logc提供日志收集服务，我们把分散到各处的日志汇总到服务器端，提供统一的日志预览功能

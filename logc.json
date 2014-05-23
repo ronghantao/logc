@@ -1,0 +1,6 @@
+{
+	"port" : 8703,
+	"mode" : "server",
+	"max_conn_count" : 200,
+	"server_host" : "127.0.0.1"
+}
